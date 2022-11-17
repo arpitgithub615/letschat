@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time chat-app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    
+    <section class="chat_section">
+        <div class="brand">
+            <img height="60" src="/logo.png" alt="">
+            <h1>Let's Chat</h1>
+        </div>
+        <div class="message_area">  </div>
+            <div>
+                <textarea  id="textarea" cols="30" placeholder="Write a message...." rows="1"></textarea>
+            </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
